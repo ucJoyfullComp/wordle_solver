@@ -10,7 +10,7 @@ use English;
 ## ln letter : specify candidate must not have letter in word
 ## lz letter place : specify candidate must have letter anywhere but place
 
-my $path_to_dictionary = "/home/uzi/bin/wordl_dict";
+my $path_to_dictionary = "wordl_dict";
 my $handle;
 unless(open $handle, "<:encoding(utf8)", $path_to_dictionary) {
 	print STDERR "could not open file '$path_to_dictionary': $!\n";
